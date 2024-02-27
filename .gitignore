@@ -1,0 +1,54 @@
+# Ignorar arquivos de compilação e objetos
+bin/
+obj/
+
+# Ignorar arquivos de dependências do NuGet
+*.nuget.props
+*.nuget.targets
+packages/
+
+# Ignorar arquivos gerados pelo Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.dll
+*.pdb
+*.class
+*.psess
+*.vsp
+*.vspx
+*.sln.docstates
+
+# Ignorar arquivos de configuração do Visual Studio
+*.vsconfig
+
+# Ignorar arquivos temporários do Visual Studio Code
+.vscode/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de backup
+*.bak
+*.backup
+
+# Ignorar arquivos de configuração
+*.config
+
+# Ignorar arquivos de saída do MSBuild
+*.dll
+*.exe
+
+# Ignorar arquivos de cache do Roslyn
+*.ide
+
+# Ignorar arquivos de cache do Rider
+.idea/
+
+# Ignorar arquivos de configuração de ferramentas
+*.sw*
+*.sln.cache
+*.suo
+*.user
+*.userosscache
